@@ -1,0 +1,20 @@
+
+*{ 
+	margin:1;
+	padding:3;
+	text-decoration:none;	
+}
+body{
+	margin:0 auto;
+	width:70%;
+	background-image: url(Img/map1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+table{
+	background:#F00;
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:bold;
+	}

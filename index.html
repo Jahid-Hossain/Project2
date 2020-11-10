@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Main Menu </title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><body>
+</head>
+
+<body>
+<table width="930" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="930" height="70" align="center" valign="top" style="color:#000; font-size:36px; font-weight:bold; font-family:'Times New Roman', Times, serif"> Historical Places of Bangladesh </td>
+  </tr>
+</table>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li>
+  		<a href="#" target="_self"><i class="fa fa-fw fa-home"></i>Home</a>
+  </li>
+  <li>
+  		<a href="about.html" target="_self"><i class="fa fa-fw fa-user"></i>About Us</a>
+  </li>
+  <li>  <a class="MenuBarItemSubmenu" href="#"><i class='fa fa-folder-open'></i></i>Gallary</a>
+  <ul>
+      <li><a href="image.html" target="_blank">Images</a></li>
+    </ul>
+    
+  <li><a class="MenuBarItemSubmenu" href="#"><i class='fa fa-map-marker'></i>
+Find Places</a>
+    <ul>
+      <li><a href="Raj.html" target="_blank">Rajshahi</a></li>
+      <li><a href="Chg.html" target="_blank">Chittagong</a></li>
+      <li><a href="dhaka.html" target="_blank">Dhaka</a></li>
+      <li><a href="khulna.html" target="_blank">Khulna</a></li>
+      <li><a href="barishal.html" target="_blank">Barishal</a></li>
+      <li><a href="mymensingh.html" target="_blank">Mymensingh</a></li>
+      <li><a href="rangpur.html" target="_blank">Rangpur</a></li>
+      <li><a href="sylhet.html" target="_blank">Sylhet</a></li>
+    </ul>
+  </li>
+  <li><a href="contact.html" target="_self"><i class="fa fa-fw fa-envelope"></i>Contact Us</a></li>
+</ul>
+<br> <br>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+ <br>
+<br>
+<br>
+<div class="container">
+<div class="w3-content w3-section" style="max-width:800px">
+  <img class="mySlides" src="Img/1.jpg" style="width:100%">
+  <img class="mySlides" src="Img/2.jpg" style="width:100%">
+  <img class="mySlides" src="Img/3.jpg" style="width:100%">
+  <img class="mySlides" src="Img/4.jpg" style="width:100%">
+  <img class="mySlides" src="Img/5.jpg" style="width:100%">
+  <img class="mySlides" src="Img/6.jpg" style="width:100%">
+  <img class="mySlides" src="Img/7.jpg" style="width:100%">
+  <img class="mySlides" src="Img/8.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);
+}
+</script>
+</div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="social-wrapper">
+    <ul>
+      <li>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="twitter.png" alt="Twitter Logo" class="twitter-icon"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/?hl=en" target="_blank">
+          <img src="instagram-logo-circle.png" alt="Instagram Logo" class="instagram-icon"></a>
+      </li>
+      <li>
+        <a href="http://www.facebook.com/" target="_blank">
+          <img src="Facebook.png" alt="Facebook Logo" class="facebook-icon"></a>
+      </li>
+      <li>
+        <a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank">
+          <img src="Logo_google+_2015.png".png" alt="Googleplus Logo" class="googleplus-icon"></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="youtube.png" alt="Youtube Logo" class="youtube-icon"></a>
+      </li>
+      <li>
+        <a href="https://foursquare.com/" target="_blank">
+          <img src="foursquare_logo_png_530241.png" alt="Foursquare Logo" class="foursquare-icon"></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

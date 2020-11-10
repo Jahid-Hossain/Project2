@@ -1,0 +1,77 @@
+*{ 
+	margin:1;
+	padding:3;
+	text-decoration:none;	
+}
+
+body{
+	margin:0 auto;
+	width:70%;
+	background-image: url(Img/35291424-yellow-green-background-with-textured-dark-green-border-grunge-light-spring-green-paper-design.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+.container{
+	margin-left:65px;
+	width:800spx;
+	height:500px;
+	}
+	.mySlides {display:none;}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:bold;
+	color: #000;
+}
+	
+.site-footer {
+	background-color:#6F6;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#social-wrapper {
+	text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon{
+	
+	margin-top: .625em;
+	width: 40px;
+	height: 40px;
+	filter: alpha(opacity=60); 
+  border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+	opacity: .3;
+	filter: alpha(opacity=100);
+}
+
+
+

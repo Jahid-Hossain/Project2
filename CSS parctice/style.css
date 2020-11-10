@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#030;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px auto;
+	
+	}
+	
+.main{
+	
+	background-color: #930;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:800px;
+	height:700px;
+	margin:0px auto;
+	
+	
+	}
+	
+	.header{
+	background-color: #06C;
+	width:750px;
+	height:150px;
+	margin:15px 0px 0px 25px;
+	float:left; 
+		
+		}
+		
+		.logo{
+	background-color: #C00;
+	width:100px;
+	height:100px;
+	margin:25px 0px 0px 25px;
+	float:left; 
+		
+		}
+		
+		.menu{
+	
+	background-color: #600;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:750px;
+	height:35px;
+	margin:0px 0px 0px 25px;
+	float:left; 
+	}
